@@ -1,0 +1,35 @@
+# The official name of your token or asset
+name = "My Token"
+
+# The symbol or ticker for your token
+symbol = "MTK"
+
+# A short description of your token
+desc = "This is an example Stellar token."
+
+# The total supply of your token
+total_supply = 1000000000
+
+# The number of decimal places for your token
+# If you set this to 2, then 1.00 MTK = 100
+decimals = 2
+
+# The issuer of the token
+issuer = "GB5F5K5KKCDIXIGLPOXVZZHUKKFCMQKLREK5QTQMMQJBVSDI3HZOD3BZ"
+
+# The URL for the home page of the issuer
+# This is optional, but recommended
+# If you don't have a website, you can leave this out
+homepage = "https://example.com"
+
+# The URL for the logo of the token
+# This is optional, but recommended
+# If you don't have a logo, you can leave this out
+logo = "https://example.com/logo.png"
+
+# The list of accounts that are authorized to hold your token
+# This is optional, but recommended
+# If you don't have any authorized accounts, you can leave this out
+[[accounts]]
+  address = "GABN43XN5CXMW32UEJ7ZMHNDR2QDK7O3O3NR3V7COGJN5XXV7GZEWQ2Z"
+  # Add additional accounts as necessary
